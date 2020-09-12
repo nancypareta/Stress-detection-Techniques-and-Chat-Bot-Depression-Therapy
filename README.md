@@ -1,27 +1,12 @@
-# Project Name : Emotion-recognition
-# Table of Content :
-1.[Description](#p1)
+                                                        ABSTRACT
+                               REAL TIME STRESS DETECTION AND PROPOSED SOLUTIONS
 
-2.[Installations](#p2)
+	                                                                                                               
+Stress has become part and parcel in every individual’s day to day lifestyle. From youngsters to sandwich generation, stress has become a major concern for the wellness economy of country India. In spite of, a lot of progress has been done in recognizing stress physiologically, there are still barriers in recognizing stress in real lifetime in cost effective way and providing hand to hand solutions. Human psychological stress and human emotion are very much interconnected. In computational psychology study, the relationship between stress and emotions is the key to understanding the human behavior. Research has been done for detecting facial emotions from images using deep learning but has not been explicitly taken up yet to find psychological stress. We have reviewed various stress recognition techniques and Proposed a hybrid system in which a convolutional neural network (CNN) is used to detect the stress levels of human being through face musculature detected from image .A CNN is trained to detect and recognize facial expressions and classify human faces into discrete emotion categories (Anger, Disgust, Neutral, Fear, Sad, Happy and Surprise). The Real time face stress detection model is image processing-based model which is having two parts: Emotion Recognition and Stress level calculation. 
 
-3.[Usage](#p3)
-
-4.[Dataset](#p4)
-
-
-
-
-
-
-
-
-<a id="p1"></a> 
-# Description:
-
-Our Human face is having a mixed emotions so we are to demonstrate the probabilities of these emotions that we have.
-
-## What does Emotion Recognition mean?
-
-Emotion recognition is a technique used in software that allows a program to "read" the emotions on a human face using advanced image processing. Companies have been experimenting with combining sophisticated algorithms with image processing techniques that have emerged in the past ten years to understand more about what an image or a video of a person's face tells us about how he/she is feeling and not just that but also showing the probabilities of mixed emotions a face could has.
+The Real time emotion recognition model will return the emotion predicted in real time. The model classifies face as stressed and not stressed. A model is trained on the fer2013 dataset (https://www.kaggle.com/deadskull7/fer2013) .The stress level is calculated with the help of eyebrows contraction and displacement from the mean position. The distance between the left and right eyebrow is being calculated and then the stress level is calculated using exponential function and normalized between 1 to 100.
+Chatbot-Depression Therapy to provide real time therapeutic solutions to alleviate depression. 
+Chatbot System is implemented using deep learning for detection and management of stress and depression and provide suggestions accordingly based on user’s mental condition. Technologies: Keras, genism python libraries, anaconda environment, the dataset being used is obtained from Kaggle.
+Keywords: Cognitive behavior therapy, Deep learning, Convolution Neural Network (CNN), Facial Expression Recognition.
 
 
